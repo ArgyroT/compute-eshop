@@ -1,0 +1,112 @@
+/* FOR HOMESCREEN */
+
+body {
+  background-image: url(./images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* PREVIOUSLY WAS .nav-list { */
+.buttons-nav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e8d1c5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  font-family: "Franklin Gothic Medium";
+  border-radius: 10px;
+  position: sticky;
+}
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-right: 120px;
+  margin-left: 120px;
+  width: 80px;
+  border-radius: 80px;
+  padding: 10px 0px 10px 0px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+/* list-style-type: none; */
+/* padding: 0 200px; */
+/* text-decoration-color: rgb(122, 122, 8); */
+
+/* ADDED HOVER FOR THE LIST */
+.button:hover {
+  background-color: rgb(143, 126, 106);
+  transition: 0.7s;
+}
+.fs-2 {
+  text-align: center;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  margin-top: 100px;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+
+.card-container {
+  /* display: flex;
+  justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 40px;
+}
+
+.card {
+  width: 320px;
+  height: 350px;
+  background-color: transparent;
+  /* background-color: rgb(159, 148, 164); */
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 400px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  /* padding-bottom: 10px; */
+}
+/* TRIED TO ADD HOVER ANIMATION - WORK IN PROGRESS */
+/* .img-container:hover .image {
+  opacity: 0.3;
+  transition: 0.5s ease;
+} */
+
+h2,
+p {
+  text-align: center;
+}
+
+div {
+  box-shadow: 5px 10px 18px #888888;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #e8d1c5;
+}
+
+.logo-container {
+  width: 200px;
+  height: 200px;
+}
+/* IN PROGRESS  */
+.footer-header {
+  align-items: center;
+}
