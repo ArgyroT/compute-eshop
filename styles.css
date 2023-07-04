@@ -7,7 +7,7 @@ body {
   background-attachment: fixed;
 }
 
-/* PREVIOUSLY WAS .nav-list { */
+/* PREVIOUSLY WAS .nav-list  */
 .buttons-nav {
   display: flex;
   flex-wrap: wrap;
