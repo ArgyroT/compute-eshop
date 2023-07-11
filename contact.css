@@ -24,8 +24,10 @@ html {
 }
 
 body {
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-family: "Poppins";
+  color: rgb(42, 1, 80);
+  max-width: calc(100%);
 }
 
 .container {
@@ -34,12 +36,15 @@ body {
   margin-top: 100px;
   margin-left: 100px;
   margin-right: 100px;
+  border-radius: 20px 40px;
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.332);
 }
 
 .contact-container {
-  background: #e8d1c5;
   border-radius: 20px 40px;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .contact {
@@ -52,7 +57,10 @@ body {
   margin-top: 25px;
   margin-right: 95px;
   margin-left: 95px;
-  background-color: #e8d1c5;
+  /* background-color: #e8d1c5; */
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.332);
   padding: 40px 60px 40px 60px;
   border-radius: 20px 40px;
 }
@@ -62,7 +70,44 @@ body {
   text-align: center;
   gap: 20px;
 }
+.message-position {
+  padding-right: 5px;
+}
+
+.message-area {
+  display: flex;
+  flex-direction: row;
+  align-items: inherit;
+  margin-top: 2px;
+  margin-right: 95px;
+  margin-left: 95px;
+}
 
 .svg-img {
+  position: static;
+  /* max-width: max-content */
   transform: translate(1050px, 100px);
+}
+.submit-btn {
+  background-color: #d6b4c2;
+  border-radius: 5px;
+  margin-top: 20px;
+  size: 20px;
+}
+
+.pulse:hover {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+@keyframes pulse {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.submit-btn:hover {
+  border-radius: 5px;
+  background-color: #d6b4c2;
 }

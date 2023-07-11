@@ -74,7 +74,11 @@ body {
   flex-wrap: wrap;
   margin: 40px 40px;
 }
-
+.home-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
 .card {
   width: 320px;
   height: 450px;
